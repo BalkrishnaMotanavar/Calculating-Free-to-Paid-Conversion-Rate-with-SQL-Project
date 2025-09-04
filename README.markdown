@@ -1,4 +1,4 @@
-# 365 Platform Conversion Analysis
+# Calculating 365 datascience Platform's Free-to-Paid Conversion Rate with SQL
 
 ## Overview
 This project analyzes user behavior on the 365 educational platform to evaluate free-to-paid conversion rates and user engagement timelines. Using SQL queries, it processes data from three tables (`student_info`, `student_engagement`, `student_purchases`) to answer:
@@ -34,6 +34,7 @@ The dataset consists of three tables:
 ## Setup
 ### Prerequisites
 - **SQL**: A MySQL-compatible database (e.g., MySQL, MariaDB).
+- **db_course_conversions.sql**: Database schema to create the `student_info`, `student_engagement`, and `student_purchases` tables.
 
 ### Database Setup
 1. Import the database schema:
@@ -92,8 +93,4 @@ The dataset consists of three tables:
 - **Opportunities**: Increase conversion rate by improving subscription value and shorten the 26-day purchase delay with targeted incentives.
 - **Challenges**: Engage the ~19,724 non-engaged registered users and reduce drop-off during the engagement-to-purchase period.
 
-## License
-This project is licensed under the MIT License.
-
-## Contact
-For questions or contributions, please open an issue or contact [your-email@example.com].
+## Thank you
